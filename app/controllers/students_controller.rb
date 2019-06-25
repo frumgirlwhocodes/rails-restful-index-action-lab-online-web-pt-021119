@@ -2,7 +2,7 @@ class StudentsController < ApllicationController
   
   def index 
     
-    @students= Student.all 
+  @students= Student.all 
   end 
   
 end 
